@@ -1,0 +1,25 @@
+body{
+    background: green;
+    background-image: url("../photos/IMG_20180324_164727.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+.card-title--floating .card-title{
+    position: relative;
+    color: #ffffff;
+    bottom: 40px;
+    padding: 30px 10px 30px 10px;
+    font-size: x-large;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card.card-title--floating:hover{
+    box-shadow: #4d6856 3px;
+}
+.card.card-title--floating .card-title:hover{
+    bottom: 45px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}

@@ -1,0 +1,22 @@
+body{
+    background: lightgrey !important;
+}
+.card-title--floating .card-title{
+    position: relative;
+    color: #ffffff !important;
+    padding: 20px;
+    bottom: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 10px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.card.card-title--floating:hover{
+    box-shadow: #4d6856 3px;
+}
+.card.card-title--floating .card-title:hover{
+    bottom: 45px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
